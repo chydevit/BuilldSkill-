@@ -819,9 +819,9 @@ function relative(filePath) {
 
 function printHelp() {
   console.log("Usage:");
-  console.log("  npm start -- /init");
-  console.log("  npm start -- /create <idea>");
-  console.log("  npm start -- /apply <change-id>");
-  console.log("  npm start -- /status");
-  console.log("  npm start -- /archive <change-id>");
+  console.log("  buildskill /init");
+  console.log("  buildskill /create <idea>");
+  console.log("  buildskill /apply <change-id>");
+  console.log("  buildskill /status");
+  console.log("  buildskill /archive <change-id>");
 }

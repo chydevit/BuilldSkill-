@@ -3,9 +3,27 @@
   "version": "1.0.0",
   "description": "A BuildSkill CLI that turns /create ideas into change specs and /apply changes into starter projects.",
   "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/chydevit/BuilldSkill-",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chydevit/BuilldSkill-.git"
+  },
+  "keywords": [
+    "buildskill",
+    "specs",
+    "cli",
+    "ai",
+    "development"
+  ],
   "bin": {
     "buildskill": "./src/cli.js"
   },
+  "files": [
+    "src",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "start": "node ./src/cli.js",
     "create": "node ./src/cli.js /create",

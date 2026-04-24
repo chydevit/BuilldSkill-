@@ -4,6 +4,28 @@
 
 BuildSkill is a lightweight spec-first workflow tool.
 
+## Install
+
+Install from GitHub:
+
+```bash
+npm install -g https://github.com/chydevit/BuilldSkill-.git
+```
+
+Then use it inside any project:
+
+```bash
+buildskill /init
+buildskill /create add dark mode task tracker
+buildskill /apply add-dark-mode-task-tracker
+```
+
+If you publish this package to npm later, the install command can become:
+
+```bash
+npm install -g buildskill@latest
+```
+
 It creates a structured change folder before code is generated:
 
 ```text
@@ -25,7 +47,7 @@ Then `/apply` reads that change and builds the starter project.
 Interactive mode:
 
 ```bash
-npm start
+buildskill
 ```
 
 Inside the prompt:
@@ -40,10 +62,10 @@ Inside the prompt:
 Direct mode:
 
 ```bash
-npm start -- /init
-npm start -- /create add dark mode task tracker
-npm start -- /apply add-dark-mode-task-tracker
-npm start -- /status
+buildskill /init
+buildskill /create add dark mode task tracker
+buildskill /apply add-dark-mode-task-tracker
+buildskill /status
 ```
 
 ## Workflow

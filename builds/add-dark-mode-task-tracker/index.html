@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dark Mode Task Tracker</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace" aria-labelledby="app-title">
+        <header class="header">
+          <div>
+            <p class="eyebrow">BuildSkill build</p>
+            <h1 id="app-title">Dark Mode Task Tracker</h1>
+          </div>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">Theme</button>
+        </header>
+
+        <p class="summary">add dark mode task tracker</p>
+
+        <form id="item-form" class="item-form">
+          <label for="item-input">Add item</label>
+          <div class="input-row">
+            <input id="item-input" type="text" placeholder="Type a new item" autocomplete="off">
+            <button type="submit">Add</button>
+          </div>
+        </form>
+
+        <section class="stats" aria-label="Stats">
+          <div><strong id="total-count">0</strong><span>Total</span></div>
+          <div><strong id="done-count">0</strong><span>Done</span></div>
+        </section>
+
+        <ul id="item-list" class="item-list"></ul>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

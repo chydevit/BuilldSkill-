@@ -1,0 +1,19 @@
+{
+  "name": "buildskill",
+  "version": "1.0.0",
+  "description": "A BuildSkill CLI that turns /create ideas into change specs and /apply changes into starter projects.",
+  "type": "module",
+  "bin": {
+    "buildskill": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "create": "node ./src/cli.js /create",
+    "apply": "node ./src/cli.js /apply",
+    "status": "node ./src/cli.js /status",
+    "demo": "node ./src/cli.js /create add dark mode task tracker"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

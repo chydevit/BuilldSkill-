@@ -1,0 +1,36 @@
+{
+  "changeId": "add-dark-mode-task-tracker",
+  "title": "Add Dark Mode Task Tracker",
+  "appName": "Dark Mode Task Tracker",
+  "idea": "add dark mode task tracker",
+  "createdAt": "2026-04-24T07:35:43.696Z",
+  "capability": "app",
+  "outputDir": "builds/add-dark-mode-task-tracker",
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "README.md"
+  ],
+  "features": [
+    "Focused interface for Dark Mode Task Tracker.",
+    "Add user-created items from a form.",
+    "Persist items in localStorage.",
+    "Show live item counts.",
+    "Toggle and persist dark mode.",
+    "Mark items complete."
+  ],
+  "flags": {
+    "darkMode": true,
+    "taskApp": true,
+    "budgetApp": false,
+    "quizApp": false
+  },
+  "tasks": [
+    "Create static app shell",
+    "Add input and item list behavior",
+    "Persist state in localStorage",
+    "Add theme toggle and dark mode styles",
+    "Write README run instructions"
+  ]
+}

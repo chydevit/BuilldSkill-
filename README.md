@@ -20,6 +20,29 @@ buildskill /create add dark mode task tracker
 buildskill /apply add-dark-mode-task-tracker
 ```
 
+## Use In Another Project
+
+Install BuildSkill from GitHub inside the project where you want to use it:
+
+```bash
+npm install --save-dev git+https://github.com/chydevit/BuilldSkill-.git
+```
+
+Then run it with `npx`:
+
+```bash
+npx buildskill /init
+npx buildskill /create add dark mode task tracker
+npx buildskill /apply add-dark-mode-task-tracker
+npx buildskill /status
+```
+
+You can also install it globally if you want the `buildskill` command available everywhere:
+
+```bash
+npm install -g git+https://github.com/chydevit/BuilldSkill-.git
+```
+
 If you publish this package to npm later, the install command can become:
 
 ```bash

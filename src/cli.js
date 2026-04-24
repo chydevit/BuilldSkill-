@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const rootDir = path.resolve(__dirname, "..");
+const rootDir = process.cwd();
 const buildskillDir = path.join(rootDir, "buildskill");
 const changesDir = path.join(buildskillDir, "changes");
 const specsDir = path.join(buildskillDir, "specs");
